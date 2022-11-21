@@ -24,7 +24,7 @@ function Counter() {
         <h1>Counter App</h1>
         <p>Counter is at {count}</p>
         <button onClick={incr}>Click to add 1 to counter</button>
-        <b><button onClick={resetCounter}>Click to reset the counter</button></b>
+        <p><button onClick={resetCounter}>Click to reset the counter</button></p>
     </div>
   );
 }

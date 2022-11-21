@@ -14,7 +14,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #6887c5;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -35,4 +35,28 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+body{
+  background-color: coral;
+  font-family:monospace;
+  font-size: larger;
+  opacity: 0.6;
+}
+
+h1 {
+  font-family:monospace;
+  color: orangered;
+  font-stretch: extra-condensed;
+}
+
+button {
+  font-family:monospace;
+  background-color: blanchedalmond;
+  font-size: 14px;
+  border-radius: 50%;
+  padding: 16px;
+  border-color:rgb(243, 62, 13);
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  display: inline-block;
 }
