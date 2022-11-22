@@ -11,6 +11,7 @@ function Counter() {
                 return oldCount + 1
             }
         )
+        console.log(count)
     }
     function resetCounter(){
         setCount(
