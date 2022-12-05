@@ -38,16 +38,24 @@
 }
 
 body{
-  background-color: coral;
+  background-color: rgb(247, 130, 88);
   font-family:monospace;
-  font-size: larger;
-  opacity: 0.6;
+  font-size:larger;
+  opacity:0.6;
 }
 
 h1 {
   font-family:monospace;
   color: orangered;
   font-stretch: extra-condensed;
+  font-size: larger;
+}
+
+h3 {
+  font-family:monospace;
+  color:rgba(255, 255, 0, 0.986);
+  font-stretch: extra-condensed;
+  font-size: larger;
 }
 
 button {
@@ -59,4 +67,16 @@ button {
   border-color:rgb(243, 62, 13);
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
   display: inline-block;
+}
+
+p{
+  font-family:monospace;
+  font-size: 14px;
+  color:rgba(101, 33, 7, 0.955);
+  font-weight:bolder;
+}
+
+input{
+  font-family:monospace;
+  font-weight:bolder;
 }
