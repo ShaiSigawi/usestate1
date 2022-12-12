@@ -25,9 +25,10 @@ function App() {
     setReset(data)
   }
 
-  function setMaxValue(value){
-    if (value > maxValue) {
-      setMaxValue(value);
+  function getMaxValue(value){
+    console.log(value)
+    if (value > maxValue){
+      setMaxValue(value)
     }
   }
 
@@ -39,8 +40,21 @@ function App() {
       <input type= "number" value = {maxNum} onChange = {handleMaxNum}/>
       <h3>Max num to add {maxValue}</h3>
 
-      <Counter countNum = {countNum} maxNum = {maxNum} getReset = {getReset} needToReset = {reset} setMaxValue = {setMaxValue} />
-      <Counter countNum = {countNum} maxNum = {maxNum} getReset = {getReset} needToReset = {reset} setMaxValue = {setMaxValue}/>
+      <Counter
+      countNum = {countNum}
+      maxNum = {maxNum}
+      getReset = {getReset}
+      needToReset = {reset}
+      getMaxValue = {getMaxValue}
+      />
+
+      <Counter
+      countNum = {countNum}
+      maxNum = {maxNum}
+      getReset = {getReset}
+      needToReset = {reset}
+      getMaxValue = {getMaxValue}
+      />
 
     </div>
   );
